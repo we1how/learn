@@ -101,6 +101,14 @@ mod.say("Mike")
 
 
 
+--------------------------------------------------
+
+love.load()
+love.update()
+love.draw() 
+
+love.graphics() 在屏幕画东西
+love.conf 基本配置
 
 
 
