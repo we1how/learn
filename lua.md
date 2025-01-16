@@ -41,38 +41,39 @@ Lua 中的每个值都可以有一个 元表。 这个 元表 就是一个普通
 所以，从对象 o 中获取事件 ev 的元方法等价于下面的代码：
 
      rawget(getmetatable(o) or {}, "__ev")
+  
 
-.. 连接符
-#获取变量长度
+  .. 连接符  
+  #获取变量长度
 
-if 条件 then  else  end
-for 条件 do  end
-while 条件 do end
-repeat until 条件
+if 条件 then  else  end  
+for 条件 do  end  
+while 条件 do end  
+repeat until 条件  
 
 - user input
-io.read()
-io.write()
+io.read()  
+io.write()  
 
 - table {}
-用for循环读取下标[i]
-插入.insert()
-.remove()
-pairs 获取键值
-.contact 连接
-{ name = "",age = 12} 
+用for循环读取下标[i]  
+插入.insert()  
+.remove()  
+pairs 获取键值  
+.contact 连接  
+{ name = "",age = 12}   
 
-- function
-
-- working with file
-io.output() 创建文件 
-io.write() 写入文件
-io.close 关闭
-io.read() 读取
-file = open("", w)  file:write()  close
+- function  
+  
+- working with file  
+io.output() 创建文件   
+io.write() 写入文件    
+io.close 关闭  
+io.read() 读取  
+file = open("", w)  file:write()  close  
 
  
-- custom module
+- custom module  
 ```lua
 custom.lua
 Mod = {
