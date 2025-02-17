@@ -108,6 +108,10 @@ love.update()
 love.draw() 
 
 love.graphics() 在屏幕画东西
+love.graphics.newQuad(0, 0, QUAD_WIDTH, QUAD_HEIGHT, SPRITE_WIDTH, SPRITE_HEIGHT)：在quad中做实现帧动画
+sprite = love.graphics.newImage("icon/boy_run.png")：加载图片
+ove.graphics.draw(boy.sprite, quads[boy.animation.frame], boy.x, boy.y, 0, -1, 1, QUAD_WIDTH, 0)：在指定位置绘制了一个水平翻转的动画帧。
+
 love.conf 基本配置
 
 
