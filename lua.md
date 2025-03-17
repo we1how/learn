@@ -114,6 +114,17 @@ ove.graphics.draw(boy.sprite, quads[boy.animation.frame], boy.x, boy.y, 0, -1, 1
 
 love.conf 基本配置
 
+-------------------------------
+3.17
+
+sprite sheets   
+程序布局：动态生成bricks
+管理状态：
+levels
+粒子系统
+碰撞检测
+持久保存数据
+
 
 
 
