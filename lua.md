@@ -127,7 +127,34 @@ levels
 
 
 3.18  
-breakout0:
+## breakout0:
+
+### 1.实现上下键发出移动的声音
+
+```
+if love.keyboard.wasPressed('up') or love.keyboard.wasPressed('down') then
+        highlighted = highlighted == 1 and 2 or 1
+        gSounds['paddle-hit']:play()
+    end
+```
+
+```
+gSounds = {
+        ['paddle-hit'] = love.audio.newSource('sounds/paddle_hit.wav', 'static'),
+    }
+```
+
+```
+source = love.audio.newSource(filename, type)
+
+source:play()：开始播放音频。
+source:pause()：暂停音频播放。
+source:stop()：停止音频播放。
+source:setVolume(volume)：设置音频的音量，volume 的取值范围是 0 到 1。
+source:setLooping(loop)：设置音频是否循环播放，loop 为 true 时循环播放，false 时不循环。
+```
+
+
 
 
 
