@@ -13,3 +13,10 @@ hashable、codable
 
 
 当你将修饰符应用于像堆栈这样的布局视图时，SwiftUI 会将该修饰符应用于组中包含的所有元素。  
+
+
+list  
+group  
+identifiable  
+NavigationSplitView  
+NavigationLink   
