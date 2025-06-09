@@ -20,3 +20,10 @@ group
 identifiable  
 NavigationSplitView  
 NavigationLink   
+foreach  
+toggle  
+.animation
+@observable
+@environment  
+@state
+@binding
