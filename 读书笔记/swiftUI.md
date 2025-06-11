@@ -23,7 +23,8 @@ NavigationLink
 foreach  
 toggle  
 .animation
-@observable
-@environment  
-@state
-@binding
+@observable  
+@environment    
+@state  
+@binding  
+observation
